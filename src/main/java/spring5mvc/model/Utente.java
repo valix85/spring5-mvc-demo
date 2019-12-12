@@ -1,9 +1,14 @@
 package spring5mvc.model;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Utente {
 
+    @Size(min = 1, message = "Lunghezza campo non valida")
     private String nome;
 
+    @Size(min = 1, max = 30, message = "{utente.cognome.invalid}")
     private String cognome;
 
     private String email;

@@ -20,6 +20,8 @@
         <tld.version>1.1.2</tld.version>
         <servlets.version>3.1.0</servlets.version>
         <jsp.version>2.3.1</jsp.version>
+
+        <hibernate.validator>5.4.3.Final</hibernate.validator>
     </properties>
 
     <dependencies>
@@ -58,6 +60,13 @@
             <artifactId>javax.servlet.jsp-api</artifactId>
             <version>${jsp.version}</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- Hibernate Validator -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate.validator}</version>
         </dependency>
     </dependencies>
 
