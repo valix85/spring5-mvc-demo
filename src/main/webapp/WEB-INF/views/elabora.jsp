@@ -11,9 +11,21 @@
 <form action="sendData" method="post">
     <table>
         <tr>
-            <td>Name</td>
+            <td>Nome</td>
             <td>
-               ${nomeElaborato}
+               ${utenteElaborato.nome}
+            </td>
+        </tr>
+        <tr>
+            <td>Cognome</td>
+            <td>
+                ${utenteElaborato.cognome}
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                ${utenteElaborato.email}
             </td>
         </tr>
     </table>

@@ -4,4 +4,5 @@ http://vracademy.altervista.org/blog/informatica/creare-un-progetto-spring-mvc-s
 
 Sono presenti varie branch:
 - step1: contiene un progetto spring5 MVC
-- step2: evolve il progetto con l'introduzione di model e service 
+- step2: evolve il progetto con l'introduzione di model e service
+- step3: validazione dei dati ed internazionalizzazione 
